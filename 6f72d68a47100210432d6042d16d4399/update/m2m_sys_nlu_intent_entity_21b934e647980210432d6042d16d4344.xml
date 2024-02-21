@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity">
+    <m2m_sys_nlu_intent_entity action="INSERT_OR_UPDATE">
+        <entity display_value="device">cdb9f0e647980210432d6042d16d4300</entity>
+        <intent display_value="EmailSetup">cdb9f0e647980210432d6042d16d4326</intent>
+        <relationship>regular</relationship>
+        <sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 13:20:20</sys_created_on>
+        <sys_id>21b934e647980210432d6042d16d4344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>device.EmailSetup</sys_name>
+        <sys_package display_value="Safety" source="x_1116456_safety">6f72d68a47100210432d6042d16d4399</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">6f72d68a47100210432d6042d16d4399</sys_scope>
+        <sys_update_name>m2m_sys_nlu_intent_entity_21b934e647980210432d6042d16d4344</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 13:20:20</sys_updated_on>
+    </m2m_sys_nlu_intent_entity>
+</record_update>

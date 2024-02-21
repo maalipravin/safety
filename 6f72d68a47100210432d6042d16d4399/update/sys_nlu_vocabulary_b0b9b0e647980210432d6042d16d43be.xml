@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_vocabulary">
+    <sys_nlu_vocabulary action="INSERT_OR_UPDATE">
+        <field_name/>
+        <filter_condition/>
+        <model display_value="test">708970a647980210432d6042d16d439e</model>
+        <name>mailing list</name>
+        <pattern>\b(?i)mail(ing)? lists?\b</pattern>
+        <primary_vocabulary/>
+        <related_terms>email list</related_terms>
+        <solution_name/>
+        <sys_class_name>sys_nlu_vocabulary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 13:20:18</sys_created_on>
+        <sys_id>b0b9b0e647980210432d6042d16d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mailing list</sys_name>
+        <sys_package display_value="Safety" source="x_1116456_safety">6f72d68a47100210432d6042d16d4399</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">6f72d68a47100210432d6042d16d4399</sys_scope>
+        <sys_update_name>sys_nlu_vocabulary_b0b9b0e647980210432d6042d16d43be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 13:20:18</sys_updated_on>
+        <table/>
+        <type>pattern</type>
+        <vocabulary_json/>
+    </sys_nlu_vocabulary>
+</record_update>

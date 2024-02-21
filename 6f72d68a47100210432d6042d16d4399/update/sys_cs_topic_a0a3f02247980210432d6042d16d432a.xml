@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="create issues h">b790706e47580210432d6042d16d431d</cb_topic_id>
+        <channels/>
+        <definition>{"id":"b790706e47580210432d6042d16d431d","name":"create issues","system_topic":false,"autopilot_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"create issues","applicability":"true","categories":[],"key_phrases":["create issues","issues","safety","safety issues"],"variables":[{"name":"__segment_trigger_bdd6f0a57fa0423c9828dfbd66b88f6c_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_28a3f0228b980210e52d2df786ef9829","unique":false,"default_value":"true","key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_e4a3f022b6980210844979f9ba28e129","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_Decision_RootDecision_a4a3f022779802104819576c7d6b9629","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_StartGoal_9c70c0b65f98474aa13dd7538f7255e6","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_TerminateGoal_c5f683fe2125487d973055e7fee86c10","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_bdd6f0a57fa0423c9828dfbd66b88f6c_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_28a3f0228b980210e52d2df786ef9829\");vaInputs.initialize(\"__silent_TerminateGoal_c5f683fe2125487d973055e7fee86c10\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_e4a3f022b6980210844979f9ba28e129\");vaInputs.initialize(\"__silent_Decision_RootDecision_a4a3f022779802104819576c7d6b9629\");vaInputs.initialize(\"__silent_StartGoal_9c70c0b65f98474aa13dd7538f7255e6\");null;","fields":[{"name":"__silent_Decision_RootDecision_a4a3f022779802104819576c7d6b9629","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_a4a3f022779802104819576c7d6b9629\";vaInputs.__silent_Decision_RootDecision_a4a3f022779802104819576c7d6b9629=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_a4a3f022779802104819576c7d6b9629\";var ackMsg=null;ackMsg=null;vaInputs.RootDecisionBranch_28a3f0228b980210e52d2df786ef9829=true;ackMsg;"},{"name":"__silent_Branch_RootDecisionBranch_e4a3f022b6980210844979f9ba28e129","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_a4a3f022779802104819576c7d6b9629\" &amp;&amp; ((vaInputs.RootDecisionBranch_28a3f0228b980210e52d2df786ef9829.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_e4a3f022b6980210844979f9ba28e129___RootDecisionBranch_e4a3f022b6980210844979f9ba28e129\";vaInputs.__silent_Branch_RootDecisionBranch_e4a3f022b6980210844979f9ba28e129=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_e4a3f022b6980210844979f9ba28e129___RootDecisionBranch_e4a3f022b6980210844979f9ba28e129\";var ackMsg=null;ackMsg=null;ackMsg;"},{"name":"__silent_StartGoal_9c70c0b65f98474aa13dd7538f7255e6","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_e4a3f022b6980210844979f9ba28e129___RootDecisionBranch_e4a3f022b6980210844979f9ba28e129\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___9c70c0b65f98474aa13dd7538f7255e6\";vaInputs.__silent_StartGoal_9c70c0b65f98474aa13dd7538f7255e6=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___9c70c0b65f98474aa13dd7538f7255e6\";var ackMsg=null;ackMsg=gs.getMessageLang(\"Thank you for reporting issue,{0}\", vaContext.getRequesterLang(), [vaInputs.user.first_name]);ackMsg;"},{"name":"__silent_TerminateGoal_c5f683fe2125487d973055e7fee86c10","applicable":"vaVars.previous_graph_node==\"Start___9c70c0b65f98474aa13dd7538f7255e6\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___c5f683fe2125487d973055e7fee86c10\";vaInputs.__silent_TerminateGoal_c5f683fe2125487d973055e7fee86c10=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___c5f683fe2125487d973055e7fee86c10\";var ackMsg=null;ackMsg=null;vaVars.__segment_trigger_bdd6f0a57fa0423c9828dfbd66b88f6c_done=true;ackMsg;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"expose_on_palette":false,"palette_label":"","flexible_conversation_switching":false,"design_categories":[],"nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"triggerable_by_notification":false,"secure_custom_input_control":false,"score":0.0,"visible":true,"discoverable":true,"sys_scope":"6f72d68a47100210432d6042d16d4399","sys_domain":"global","title":"create issues","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category/>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>create issues issues safety safety issues</key_phrases>
+        <last_published_on>2024-02-14 12:53:47</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone/>
+        <name>create issues</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 12:53:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>a0a3f02247980210432d6042d16d432a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>create issues</sys_name>
+        <sys_package display_value="Safety" source="x_1116456_safety">6f72d68a47100210432d6042d16d4399</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">6f72d68a47100210432d6042d16d4399</sys_scope>
+        <sys_update_name>sys_cs_topic_a0a3f02247980210432d6042d16d432a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 12:53:47</sys_updated_on>
+        <title>create issues</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=a0a3f02247980210432d6042d16d432a"/>
+</record_update>

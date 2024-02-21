@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description/>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>safety : due date hidden</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-15 00:00:42</sys_created_on>
+        <sys_id>571c4f2e47100210432d6042d16d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>safety : due date hidden</sys_name>
+        <sys_package display_value="Safety" source="x_1116456_safety">6f72d68a47100210432d6042d16d4399</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">6f72d68a47100210432d6042d16d4399</sys_scope>
+        <sys_update_name>sys_atf_test_571c4f2e47100210432d6042d16d430b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-15 00:00:42</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=571c4f2e47100210432d6042d16d430b"/>
+</record_update>

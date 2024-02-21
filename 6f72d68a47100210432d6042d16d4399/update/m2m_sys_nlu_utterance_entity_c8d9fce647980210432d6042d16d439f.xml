@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":21,"end":30,"annotatedString":"Could you modify the {{phrase=\"start date\"}} for my change request","cat":"Set actual start date"}]</annotation>
+        <entity display_value="changefield">e1b934e647980210432d6042d16d4356</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 13:20:47</sys_created_on>
+        <sys_id>c8d9fce647980210432d6042d16d439f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>changefield.Could you modify the start date for my change request</sys_name>
+        <sys_package display_value="Safety" source="x_1116456_safety">6f72d68a47100210432d6042d16d4399</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">6f72d68a47100210432d6042d16d4399</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_c8d9fce647980210432d6042d16d439f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 13:20:47</sys_updated_on>
+        <utterance display_value="Could you modify the start date for my change request">4fc9bce647980210432d6042d16d4361</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

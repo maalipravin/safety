@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":22,"end":33,"annotatedString":"I need to order a new {{phrase=\"@requestItem\"}}"}]</annotation>
+        <entity display_value="requestItem">cdb9f0e647980210432d6042d16d4304</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 13:20:51</sys_created_on>
+        <sys_id>09d9302a47980210432d6042d16d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>requestItem.I need to order a new @requestItem</sys_name>
+        <sys_package display_value="Safety" source="x_1116456_safety">6f72d68a47100210432d6042d16d4399</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">6f72d68a47100210432d6042d16d4399</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_09d9302a47980210432d6042d16d43ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 13:20:51</sys_updated_on>
+        <utterance display_value="I need to order a new @requestItem">bac97ce647980210432d6042d16d43bb</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>
