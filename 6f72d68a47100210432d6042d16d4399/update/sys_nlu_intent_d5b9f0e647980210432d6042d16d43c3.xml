@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_intent">
+    <sys_nlu_intent action="INSERT_OR_UPDATE">
+        <confidence_threshold>0.6</confidence_threshold>
+        <description>Search for and submit catalog items.</description>
+        <enable>false</enable>
+        <model display_value="test">708970a647980210432d6042d16d439e</model>
+        <name>SubmitARequest (Deprecated)</name>
+        <origin display_value="SubmitARequest (Deprecated)">ca9162540b603300a1b16c2367673a48</origin>
+        <override_confidence_threshold>false</override_confidence_threshold>
+        <primary_intent/>
+        <status>draft</status>
+        <sys_class_name>sys_nlu_intent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 13:20:19</sys_created_on>
+        <sys_id>d5b9f0e647980210432d6042d16d43c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SubmitARequest (Deprecated)</sys_name>
+        <sys_package display_value="Safety" source="x_1116456_safety">6f72d68a47100210432d6042d16d4399</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">6f72d68a47100210432d6042d16d4399</sys_scope>
+        <sys_update_name>sys_nlu_intent_d5b9f0e647980210432d6042d16d43c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 13:20:19</sys_updated_on>
+    </sys_nlu_intent>
+</record_update>

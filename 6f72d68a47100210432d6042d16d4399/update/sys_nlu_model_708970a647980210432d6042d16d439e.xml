@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_nlu_model">
+    <sys_nlu_model action="INSERT_OR_UPDATE">
+        <category>virtual_agent</category>
+        <confidence_threshold>0.65</confidence_threshold>
+        <description/>
+        <display_name>test</display_name>
+        <ignore_punctuation/>
+        <language>en</language>
+        <last_translated_on/>
+        <model_domain>itsm</model_domain>
+        <name>ml_x_1116456_x_1116456_safety_global_708970a647980210432d6042d16d439e</name>
+        <oob>false</oob>
+        <primary_model/>
+        <state>Draft</state>
+        <sys_class_name>sys_nlu_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 13:19:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>708970a647980210432d6042d16d439e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Safety" source="x_1116456_safety">6f72d68a47100210432d6042d16d4399</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">6f72d68a47100210432d6042d16d4399</sys_scope>
+        <sys_update_name>sys_nlu_model_708970a647980210432d6042d16d439e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 13:19:28</sys_updated_on>
+        <threshold_type>automatic</threshold_type>
+        <vocabulary_needs_review>false</vocabulary_needs_review>
+    </sys_nlu_model>
+</record_update>

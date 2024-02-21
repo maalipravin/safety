@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":10,"end":19,"annotatedString":"I want to {{phrase=\"reschedule\"}} my time with the walk-up team","cat":"Reschedule Appointment"}]</annotation>
+        <entity display_value="walkupActionType">adb934e647980210432d6042d16d4339</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 13:20:48</sys_created_on>
+        <sys_id>d4d9302a47980210432d6042d16d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>walkupActionType.I want to reschedule my time with the walk-up team</sys_name>
+        <sys_package display_value="Safety" source="x_1116456_safety">6f72d68a47100210432d6042d16d4399</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">6f72d68a47100210432d6042d16d4399</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_d4d9302a47980210432d6042d16d4323</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 13:20:48</sys_updated_on>
+        <utterance display_value="I want to reschedule my time with the walk-up team">e0c9b8e647980210432d6042d16d434a</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

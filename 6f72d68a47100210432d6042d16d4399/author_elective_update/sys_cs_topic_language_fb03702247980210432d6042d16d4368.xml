@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_language">
+    <sys_cs_topic_language action="DELETE">
+        <cs_topic_id display_value="_PRVW__eb03b0eebf580210067c9ca374193297">bf03b0ee47580210432d6042d16d439e</cs_topic_id>
+        <language_code>en</language_code>
+        <nlu_entities>[]</nlu_entities>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <sys_class_name>sys_cs_topic_language</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 12:51:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>fb03702247980210432d6042d16d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Safety" source="x_1116456_safety">6f72d68a47100210432d6042d16d4399</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">6f72d68a47100210432d6042d16d4399</sys_scope>
+        <sys_update_name>sys_cs_topic_language_fb03702247980210432d6042d16d4368</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 12:51:16</sys_updated_on>
+    </sys_cs_topic_language>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">6f72d68a47100210432d6042d16d4399</application>
+        <file_path/>
+        <instance_id>264d23111b76b55452a243f4bd4bcb34</instance_id>
+        <instance_name>dev227326</instance_name>
+        <name>sys_cs_topic_language_fb03702247980210432d6042d16d4368</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_language"><sys_cs_topic_language action="INSERT_OR_UPDATE"><cs_topic_id display_value="_PRVW__eb03b0eebf580210067c9ca374193297">bf03b0ee47580210432d6042d16d439e</cs_topic_id><language_code>en</language_code><nlu_entities>[]</nlu_entities><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider><sys_class_name>sys_cs_topic_language</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-14 12:51:16</sys_created_on><sys_domain>global</sys_domain><sys_id>fb03702247980210432d6042d16d4368</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Safety" source="x_1116456_safety">6f72d68a47100210432d6042d16d4399</sys_package><sys_policy/><sys_scope display_value="Safety">6f72d68a47100210432d6042d16d4399</sys_scope><sys_update_name>sys_cs_topic_language_fb03702247980210432d6042d16d4368</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-14 12:51:16</sys_updated_on></sys_cs_topic_language></record_update>]]></payload>
+        <payload_hash>-1387284873</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>fb72d68a47100210432d6042d16d439b</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 12:51:16</sys_created_on>
+        <sys_id>f303702247980210432d6042d16d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18da7abe51f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 12:51:16</sys_updated_on>
+        <type>CS Topic Language</type>
+        <update_guid>3b03702295980210ca4d3e98cb348869</update_guid>
+        <update_guid_history>3b03702295980210ca4d3e98cb348869:-1387284873</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-15 01:24:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_cs_topic_language">sys_cs_topic_language</sys_db_object>
+        <sys_id>32cbc3038b454a5c901b93a333d50b11</sys_id>
+        <sys_metadata>fb03702247980210432d6042d16d4368</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Safety" source="x_1116456_safety">6f72d68a47100210432d6042d16d4399</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safety">6f72d68a47100210432d6042d16d4399</sys_scope>
+        <sys_scope_delete display_value="">77be505570df437e9a0d27e072a05244</sys_scope_delete>
+        <sys_update_name>sys_cs_topic_language_fb03702247980210432d6042d16d4368</sys_update_name>
+        <sys_update_version display_value="sys_cs_topic_language_fb03702247980210432d6042d16d4368">f303702247980210432d6042d16d436a</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-15 01:24:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

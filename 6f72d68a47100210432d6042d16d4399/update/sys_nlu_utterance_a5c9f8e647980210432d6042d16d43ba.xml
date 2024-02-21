@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="ProcessApproval">d5b9f0e647980210432d6042d16d4395</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <source>manual</source>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 13:20:36</sys_created_on>
+        <sys_id>a5c9f8e647980210432d6042d16d43ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>I need to reject an assigned approval request</sys_name>
+        <sys_package display_value="Safety" source="x_1116456_safety">6f72d68a47100210432d6042d16d4399</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">6f72d68a47100210432d6042d16d4399</sys_scope>
+        <sys_update_name>sys_nlu_utterance_a5c9f8e647980210432d6042d16d43ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 13:20:36</sys_updated_on>
+        <utterance>I need to reject an assigned approval request</utterance>
+    </sys_nlu_utterance>
+</record_update>

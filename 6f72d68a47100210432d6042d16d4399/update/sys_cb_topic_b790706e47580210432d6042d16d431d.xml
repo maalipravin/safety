@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>create issues</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.42",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "9c70c0b65f98474aa13dd7538f7255e6": {
+          "id": "9c70c0b65f98474aa13dd7538f7255e6",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Thank you for reporting issue,"
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.user.first_name}}",
+                      "displayValue": "Input Variables➛User➛First name"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "c5f683fe2125487d973055e7fee86c10": {
+          "id": "c5f683fe2125487d973055e7fee86c10",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "thankuu"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "a73c8311f30b409084c51e608609ab81": {
+          "id": "a73c8311f30b409084c51e608609ab81",
+          "stepType": "Prompt",
+          "name": "short description",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "please provide issue"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "434f832667844d578348f93116d05541",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          }
+        },
+        "957af52d0ff54c8ab4dfbfbcab467cdb": {
+          "stepType": "ChoicePrompt",
+          "name": "catagory",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "whats size"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "999721c7adeb4613b429e64b3a0d1bac",
+          "id": "957af52d0ff54c8ab4dfbfbcab467cdb",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "47a612ef2b0b4f76829702a427ee5eb1": {
+          "id": "47a612ef2b0b4f76829702a427ee5eb1",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "0aa896be2ab048c4acf5de9fc8dc028e": {
+          "id": "0aa896be2ab048c4acf5de9fc8dc028e",
+          "stepType": "Prompt",
+          "name": "Due date",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "when"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "2b039c3e34014856bc9e842b34b178d2"
+        },
+        "bc99f30b9574474e8c86e88b29828570": {
+          "id": "bc99f30b9574474e8c86e88b29828570",
+          "stepType": "CrudAction",
+          "name": "action",
+          "template": "category=big^due_date=2024-02-16 00:00:00^state=work_in_progress^priority=big",
+          "mode": "create",
+          "record": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "561804c36c5649ddaf23b47c146b3f38"
+        },
+        "80b0c3f892d0437aadcf538f4c8e10d9": {
+          "id": "80b0c3f892d0437aadcf538f4c8e10d9",
+          "stepType": "RecordOutput",
+          "name": "caa",
+          "variableId": "561804c36c5649ddaf23b47c146b3f38",
+          "cardTemplate": "General",
+          "cardFields": {},
+          "mode": "variable",
+          "tableName": "x_1116456_safety_issue",
+          "fields": [
+            "category",
+            "due_date"
+          ],
+          "cardDefinition": {
+            "name": "Record",
+            "value": "General"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "310447b540e142868f445c88a1991dc9",
+          "edgeType": "Edge",
+          "source": "9c70c0b65f98474aa13dd7538f7255e6",
+          "target": "a73c8311f30b409084c51e608609ab81",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "6bbacfd4a21e4c36880657cfef8bbdae",
+          "edgeType": "Edge",
+          "source": "a73c8311f30b409084c51e608609ab81",
+          "target": "957af52d0ff54c8ab4dfbfbcab467cdb",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "1f51ddb7ac6c4e3eabd4aa6b0b042530",
+          "edgeType": "Edge",
+          "source": "957af52d0ff54c8ab4dfbfbcab467cdb",
+          "target": "47a612ef2b0b4f76829702a427ee5eb1",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f7c65da1a68f43e2bc60601b5706ed49",
+          "edgeType": "Branch",
+          "source": "47a612ef2b0b4f76829702a427ee5eb1",
+          "target": "0aa896be2ab048c4acf5de9fc8dc028e",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.catagory=big",
+            "mode": "query"
+          },
+          "label": "category"
+        },
+        {
+          "id": "c78840ba5a7d4b75831e02bcb0821ebc",
+          "edgeType": "Branch",
+          "source": "47a612ef2b0b4f76829702a427ee5eb1",
+          "target": "bc99f30b9574474e8c86e88b29828570",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.catagory=small",
+            "mode": "query"
+          },
+          "label": "netx"
+        },
+        {
+          "id": "26e8c890a24842c185138e66e4b87bd5",
+          "edgeType": "Edge",
+          "source": "0aa896be2ab048c4acf5de9fc8dc028e",
+          "target": "bc99f30b9574474e8c86e88b29828570",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d9a4559464e94260b44d5f198cb11de2",
+          "edgeType": "Edge",
+          "source": "bc99f30b9574474e8c86e88b29828570",
+          "target": "80b0c3f892d0437aadcf538f4c8e10d9",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "6cf1f1e96a464d1c9abad2de9a506d69",
+          "edgeType": "Edge",
+          "source": "80b0c3f892d0437aadcf538f4c8e10d9",
+          "target": "c5f683fe2125487d973055e7fee86c10",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "434f832667844d578348f93116d05541": {
+      "id": "434f832667844d578348f93116d05541",
+      "name": "short_description",
+      "label": "Short Description",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTcwNzkxNTMxMjAzMCBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "a73c8311f30b409084c51e608609ab81",
+      "isHidden": false
+    },
+    "999721c7adeb4613b429e64b3a0d1bac": {
+      "id": "999721c7adeb4613b429e64b3a0d1bac",
+      "name": "catagory",
+      "label": "Catagory",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "big",
+          "value": "big"
+        },
+        {
+          "label": "small",
+          "value": "small"
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "957af52d0ff54c8ab4dfbfbcab467cdb",
+      "isHidden": false
+    },
+    "2b039c3e34014856bc9e842b34b178d2": {
+      "id": "2b039c3e34014856bc9e842b34b178d2",
+      "name": "due_date",
+      "label": "Due Date",
+      "varType": "date_time",
+      "secure": false,
+      "category": "vaInputs",
+      "mode": "date",
+      "nodeId": "0aa896be2ab048c4acf5de9fc8dc028e",
+      "isHidden": false
+    },
+    "561804c36c5649ddaf23b47c146b3f38": {
+      "id": "561804c36c5649ddaf23b47c146b3f38",
+      "name": "action",
+      "label": "Action",
+      "varType": "reference",
+      "table": "x_1116456_safety_issue",
+      "inactive": false,
+      "category": "vaInputs",
+      "nodeId": "80b0c3f892d0437aadcf538f4c8e10d9",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <key_phrases>create issues h,issues,safety,safety issues</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>create issues h</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 12:40:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>b790706e47580210432d6042d16d431d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>create issues h</sys_name>
+        <sys_package display_value="Safety" source="x_1116456_safety">6f72d68a47100210432d6042d16d4399</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">6f72d68a47100210432d6042d16d4399</sys_scope>
+        <sys_update_name>sys_cb_topic_b790706e47580210432d6042d16d431d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 13:16:04</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+</record_update>

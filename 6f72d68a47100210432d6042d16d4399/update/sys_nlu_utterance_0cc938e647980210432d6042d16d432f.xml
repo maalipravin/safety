@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="IdentifyScheduledChanges">c5b9f0e647980210432d6042d16d4367</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <source>manual</source>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 13:20:31</sys_created_on>
+        <sys_id>0cc938e647980210432d6042d16d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>will you display the scheduled updates for me</sys_name>
+        <sys_package display_value="Safety" source="x_1116456_safety">6f72d68a47100210432d6042d16d4399</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">6f72d68a47100210432d6042d16d4399</sys_scope>
+        <sys_update_name>sys_nlu_utterance_0cc938e647980210432d6042d16d432f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 13:20:31</sys_updated_on>
+        <utterance>will you display the scheduled updates for me</utterance>
+    </sys_nlu_utterance>
+</record_update>
